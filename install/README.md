@@ -1,15 +1,17 @@
-# ARCH LINUX PACKAGE INSTALLER
+# Arch Linux Package Installer
 
-## What is it?
+## Introduction
 
-Package installer that, installs a bunch of packages that are necessary (in my
-opinion).
+A package installer for Arch Linux that installs all the packages I have
+installed on my system. The expected usage of this script will be when I am
+installing Arch Linux on another machine and want to have the exact same
+packages.
 
-## Getting started
+## Usage
 
-To install these packages, run:
+To install the packages, run:
 ```
-# ./pkginstaller.sh 
+./pkginstaller.sh 
 ```
 
 Note: This script must be run as root.
