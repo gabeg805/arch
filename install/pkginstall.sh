@@ -10,192 +10,79 @@
 # 
 # ------------------------------------------------------------------------------
 
-pacman -S abs
 pacman -S acpi
 pacman -S alsa-firmware
 pacman -S alsa-oss
 pacman -S alsa-plugins
 pacman -S alsa-tools
 pacman -S alsa-utils
-pacman -S android-platform
-pacman -S android-sdk
-pacman -S android-sdk-build-tools
-pacman -S android-sdk-platform-tools
-pacman -S android-studio
-pacman -S arandr
-pacman -S arduino
-pacman -S arduino-mk
-pacman -S aspell
-pacman -S aspell-en
-pacman -S audacity
-pacman -S autoconf
-pacman -S autofs
-pacman -S automake
-pacman -S bash
-pacman -S bc
-pacman -S bdf-unifont
-pacman -S bind-tools
-pacman -S binutils
-pacman -S bison
-pacman -S brother-mfc-j480dw
-pacman -S bzip2
-pacman -S ccache
-pacman -S coreutils
-pacman -S cronie
-pacman -S cryptsetup
-pacman -S cups
-pacman -S device-mapper
-pacman -S dhcpcd
-pacman -S dialog
-pacman -S diffutils
+# pacman -S android-platform
+# pacman -S android-sdk
+# pacman -S android-sdk-build-tools
+# pacman -S android-sdk-platform-tools
+# pacman -S android-studio
+# pacman -S arduino
+# pacman -S arduino-mk
+# pacman -S aspell
+# pacman -S aspell-en
+# pacman -S audacity
+# pacman -S brother-mfc-j480dw
+# pacman -S cups
+# pacman -S device-mapper
 pacman -S dmenu
-pacman -S dosfstools
 pacman -S doxygen
-pacman -S dwm
-pacman -S e2fsprogs
-pacman -S emacs
 pacman -S evince
-pacman -S exfat-utils
-pacman -S fakeroot
 pacman -S feh
-pacman -S file
-pacman -S filesystem
-pacman -S findutils
 pacman -S firefox
-pacman -S flashplugin
-pacman -S flex
-pacman -S gawk
-pacman -S gcc
-pacman -S gcc-gcj-ecj
-pacman -S gcc-libs
-pacman -S gcc6-gcj
 pacman -S gdb
-pacman -S gettext
-pacman -S ghex
 pacman -S gimp
 pacman -S git
-pacman -S glibc
-pacman -S glu
 pacman -S gohufont
 pacman -S gparted
-pacman -S gperf
-pacman -S gpicview
-pacman -S gptfdisk
-pacman -S grep
-pacman -S groff
-pacman -S grub
-pacman -S gsl
-pacman -S gtkmm
-pacman -S gtkmm3
-pacman -S gzip
-pacman -S hdparm
-pacman -S hsetroot
-pacman -S hwinfo
+pacman -S gsimplecal
 pacman -S i3-wm
-pacman -S i3lock
 pacman -S i3status
-pacman -S icedtea-web
 pacman -S ifplugd
-pacman -S incron
-pacman -S inetutils
-pacman -S inotify-tools
-pacman -S intltool
+# pacman -S incron
+# pacman -S inetutils
+# pacman -S inotify-tools
+# pacman -S intltool
 pacman -S iproute2
 pacman -S iputils
 pacman -S iw
-pacman -S jdk7-openjdk
-pacman -S jfsutils
-pacman -S less
-pacman -S lib32-gcc-libs
-pacman -S lib32-glibc
-pacman -S lib32-ncurses
-pacman -S lib32-readline
-pacman -S lib32-zlib
-pacman -S libgcrypt15
-pacman -S libidn2
+# pacman -S jdk7-openjdk
 pacman -S libpam-google-authenticator
-pacman -S libspectre
-pacman -S libstdc++5
-pacman -S libtool
-pacman -S libvdpau-va-gl
-pacman -S libxp
-pacman -S libxss
-pacman -S licenses
-pacman -S linux
 pacman -S logrotate
 pacman -S lsof
-pacman -S lvm2
-pacman -S m4
-pacman -S make
-pacman -S man-db
-pacman -S man-pages
-pacman -S mdadm
-pacman -S mesa
-pacman -S mesa-demos
 pacman -S moc
-pacman -S mtpfs
-pacman -S mullvad
-pacman -S nano
-pacman -S net-tools
-pacman -S netctl
-pacman -S netpbm
+# pacman -S net-tools
 pacman -S nmap
-pacman -S nss-mdns
-pacman -S ntfs-3g
-pacman -S ntp
-pacman -S openal
-pacman -S openbox
-pacman -S openjdk7-src
+# pacman -S openjdk7-src
 pacman -S openssh
 pacman -S openvpn
 pacman -S os-prober
-pacman -S pacman
-pacman -S patch
-pacman -S pciutils
-pacman -S pcmciautils
-pacman -S perl
-pacman -S perl-device-serialport
-pacman -S perl-switch
-pacman -S php
-pacman -S php-cgi
-pacman -S pkg-config
-pacman -S polybar
-pacman -S potrace
-pacman -S pqiv-git
-pacman -S procps-ng
-pacman -S psmisc
+pacman -S otf-font-awesome
+# pacman -S pciutils
+# pacman -S pcmciautils
 pacman -S pulseaudio
 pacman -S pulseaudio-alsa
+pacman -S python-gobject
 pacman -S python-matplotlib
-pacman -S python-pip
-pacman -S python-pyserial
-pacman -S python2-matplotlib
-pacman -S python2-pyserial
-pacman -S python2-virtualenv
-pacman -S qiv
+# pacman -S python-pyserial
+# pacman -S python2-matplotlib
+# pacman -S python2-pyserial
+# pacman -S python2-virtualenv
+# pacman -S qiv
 pacman -S qrencode
 pacman -S redshift
-pacman -S reiserfsprogs
-pacman -S repo
 pacman -S rsync
-pacman -S ruby-maruku
-pacman -S ruby-sass
-pacman -S ruby-yard
 pacman -S rxvt-unicode
-pacman -S samba
-pacman -S schedtool
-pacman -S screen
 pacman -S scrot
-pacman -S sed
-pacman -S shadow
-pacman -S siji-git
-pacman -S squashfs-tools
-pacman -S strace
-pacman -S sudo
-pacman -S sysfsutils
-pacman -S sysstat
-pacman -S systemd-sysvcompat
-pacman -S tar
+# pacman -S strace
+# pacman -S sudo
+# pacman -S sysfsutils
+# pacman -S sysstat
+# pacman -S systemd-sysvcompat
 pacman -S texinfo
 pacman -S texlive-bibtexextra
 pacman -S texlive-bin
@@ -204,50 +91,39 @@ pacman -S texlive-fontsextra
 pacman -S texlive-formatsextra
 pacman -S texlive-latexextra
 pacman -S texlive-publishers
-pacman -S thunar
-pacman -S tile-windows
+# pacman -S thunar
 pacman -S transmission-gtk
-pacman -S transset-df
 pacman -S ttf-dejavu
 pacman -S ttf-droid
 pacman -S ttf-inconsolata
 pacman -S ttf-ms-fonts
 pacman -S udisks
-pacman -S unrar
 pacman -S unzip
 pacman -S urxvt-perls
-pacman -S usbutils
-pacman -S util-linux
-pacman -S valgrind
-pacman -S vi
+# pacman -S usbutils
+# pacman -S util-linux
+# pacman -S valgrind
+# pacman -S vi
 pacman -S vim
 pacman -S vlc
-pacman -S vpnc
-pacman -S wavpack
+# pacman -S vpnc
+# pacman -S wavpack
 pacman -S wget
-pacman -S which
-pacman -S wireless_tools
-pacman -S wpa_actiond
 pacman -S wpa_supplicant
-pacman -S wxgtk2
 pacman -S xbindkeys
 pacman -S xcompmgr
-pacman -S xdialog
-pacman -S xdotool
-pacman -S xf86-input-synaptics
-pacman -S xfsprogs
+# pacman -S xdotool
+# pacman -S xf86-input-synaptics
+# pacman -S xfsprogs
 pacman -S xorg-server
 pacman -S xorg-server-utils
-pacman -S xorg-xclock
 pacman -S xorg-xdm
 pacman -S xorg-xev
+pacman -S xorg-xhost
 pacman -S xorg-xinit
 pacman -S xorg-xkill
 pacman -S xorg-xlsfonts
 pacman -S xorg-xprop
 pacman -S xorg-xwininfo
-pacman -S xterm
 pacman -S youtube-dl-mp3
-pacman -S zd1211-firmware
-pacman -S zip
 pacman -S zsh
